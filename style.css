@@ -1,13 +1,25 @@
 
 body {
-    font-family: 'Raleway', sans-serif !important;
     text-align: center;
+    font-family: 'Raleway', sans-serif !important;
+}
+span { 
+  font-weight: 900;
+}
+
+.panel-body {
+  font-family: arial;
+  text-align: left;
+}
+li {
+  text-align: left;
 }
 header {
+    
     font-size: 5rem;
     margin-top: 20px;
 }
-.container {
+.box-container {
     display: block;
 }
 
@@ -105,4 +117,11 @@ header {
   -moz-transition: none;
   -o-transition: none;
   transition: none;
+}
+
+
+@media (min-width: 700px) {
+  .container {
+    width: 40% !important;
+  } 
 }
