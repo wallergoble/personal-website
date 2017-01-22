@@ -6,7 +6,11 @@ body {
 span { 
   font-weight: 900;
 }
-
+.panel-heading {
+  background-color: black !important;
+  text-decoration: none;
+  color: white;
+}
 .panel-body {
   font-family: arial;
   text-align: left;
@@ -125,3 +129,4 @@ header {
     width: 40% !important;
   } 
 }
+
